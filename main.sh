@@ -306,7 +306,7 @@ restart_system() {
 USRSC=$(wget -qO- https://raw.githubusercontent.com/scriswan/lunaip/main/ip | grep $ipsaya | awk '{print $2}')
 EXPSC=$(wget -qO- https://raw.githubusercontent.com/scriswan/lunaip/main/ip | grep $ipsaya | awk '{print $3}')
 TIMES="10"
-CHATID="-5521096873"
+CHATID="5521096873"
 KEY="6668909715:AAHdCAC0NPVuXFjWEdueA2VvkkMl5Ie1WRQ"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 TIMEZONE=$(printf '%(%H:%M:%S)T')
