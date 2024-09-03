@@ -27,7 +27,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "\033[33;1m┌─────────────────────────────────────────────────┐\033[0m "
-echo -e "\e[33;1m│\e[0m \033[44;1;97;1m                  RISWAVPN                   \033[0m \e[33;1m│\e[0m"
+echo -e "\e[33;1m│\e[0m \033[44;1;97;1m            RISWAN TUNNELING                   \033[0m \e[33;1m│\e[0m"
 echo -e "\033[33;1m└─────────────────────────────────────────────────┘\033[0m "
 sleep 4
 clear
@@ -278,7 +278,7 @@ clear
 echo ""
 echo ""
 echo -e "\033[96;1m┌─────────────────────────────────────────────────┐\033[0m "
-echo -e "\e[96;1m│\e[0m \033[41;1;97;1m                LUNATIC TUNNELING              \033[0m \e[96;1m│\e[0m"
+echo -e "\e[96;1m│\e[0m \033[41;1;97;1m                RISWAN TUNNELING              \033[0m \e[96;1m│\e[0m"
 echo -e "\033[96;1m└─────────────────────────────────────────────────┘\033[0m "
 echo -e ""
 echo -e "\e[37;1m Pastikan Ip vps Anda Sudah - \e[0m"
@@ -312,7 +312,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
- <b> 🟢 NOTIFICATIONS INSTALL 🟢</b>
+ <b> 🟢 NOTIF INSTALL SC 🟢</b>
 <code>────────────────────</code>
 <code>ID      : </code><code>$USRSC</code>
 <code>Host    : </code><code>$domain</code>
@@ -321,7 +321,7 @@ TEXT="
 <code>Exp Sc  : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/Riswanvpnstore"},{"text":"Contack","url":"https://wa.me/6281214726068"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/Riswanvpnstore"},{"text":"Contack","url":"https://wa.me/6285888801241"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
