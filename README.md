@@ -9,3 +9,7 @@
 
 # // Update sc Manual
 <pre><code>wget https://raw.githubusercontent.com/scriswan/v1/main/pdkt.sh && chmod +x pdkt.sh && ./pdkt.sh</code></pre>
+
+
+# // up sc installer main
+<pre><code>apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/nadiavpn/Apex/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && screen -S install ./ubu20-deb10-stable.sh</code></pre>
